@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>keycodesjs</title>
+        <script src="./js/vendor/vue.min.js" type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="./css/app.css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <div id="app" class="wrapper">
+            <div class="content">
+                <div v-if="keyCode" class="keyCodeDisplay">
+                    <span>{{ keyCode }}</span>
+                </div>
+                 <div class="keyDisplay">
+                    <span>{{ keyName }}</span>
+                </div>
+            </div>
+            <div>
+               
+            </div>
+            <div class="footer">Made with &#x2665;
+            by <a href="https://github.com/cristianst">@cristianst</a>
+            </div>
+        </div>
+        <script src="./js/app.js" type="text/javascript"></script>
+    </body>
+</html>
